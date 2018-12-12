@@ -19,6 +19,8 @@ public class Book
         this.isbn = isbn;
     }
 
+
+
     //getter und setter  für alle 4 variablen
     public int getPages() {
         return pages;

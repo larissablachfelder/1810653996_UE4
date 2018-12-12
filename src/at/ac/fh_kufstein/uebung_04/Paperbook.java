@@ -3,7 +3,7 @@ package at.ac.fh_kufstein.uebung_04;
 import java.util.Date;
 
 public class Paperbook extends Book
-{
+{   //referenzvariable
     private String series;
     private String month;
 
@@ -18,20 +18,25 @@ public class Paperbook extends Book
 
     }
 
+
     //getter und setter der neuen Variablen
-    public String getSeries() {
+    public String getSeries()
+    {
         return series;
     }
 
-    public void setSeries(String series) {
+    public void setSeries(String series)
+    {
         this.series = series;
     }
 
-    public String getMonth() {
+    public String getMonth()
+    {
         return month;
     }
 
-    public void setMonth(String month) {
+    public void setMonth(String month)
+    {
         this.month = month;
     }
 }

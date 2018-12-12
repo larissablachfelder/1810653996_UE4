@@ -12,12 +12,12 @@ public class Aufruf
         //aufgabe 3
         System.out.println("\nAufgabe 3:");
 
-        //118 für das Jahr 2018 da erst ab 1900 die Jahre gezählt  werden; monat -1
+        //118 für das Jahr 2018 da erst ab 1900 die Jahre gezählt -->   werden; monat -1 weil er mit 0 zählen beginnt
         Date datum = new Date(118, 9, 2, 14, 9, 54);
         Book buch = new Book(200, datum , "My Book","125215-12521-73473");
 
         //ausgeben
-        System.out.println("Das Buch hat " + buch.getPages() + ", wurde am " + datum + " veröffentlicht und hat den Titel " + buch.getTitle() + ".") ;
+        System.out.println("Das Buch hat " + buch.getPages() + ", wurde am " + buch.getReleased() + " veröffentlicht und hat den Titel " + buch.getTitle() + ".") ;
 
 
 
@@ -47,7 +47,7 @@ public class Aufruf
         //Aufgabe 5 Paperbook
         System.out.println("\nAufgabe 5:");
 
-
+        //List ist eine abstrakte klassse --> arrayliste erbt von der Liste sozusagen
         List<Paperbook> papierbuch = new ArrayList<>();
 
 
